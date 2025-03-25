@@ -295,6 +295,64 @@
                             </div>
                         </div>
                     </div>
+                    <!-- 电梯9 -->
+                    <div class="web-passenger-product">
+                        <div class="web-passenger-product-box">
+                            <div class="web-passenger-product-box-img">
+                                <img
+                                    src="@/assets/images/villa-images/GDMV-09.jpg"
+                                    alt=""
+                                    style="width: 100%; height: 100%"
+                                />
+                            </div>
+                            <div class="web-passenger-product-box-text">
+                                <span class="text4">GDMV-09</span><br />
+                                <span class="text5"
+                                    >吊顶:&nbsp;镜面一体式,LED柔光平板照明灯设计<br />
+                                    娇壁:&nbsp;镜面蚀刻不锈钢，发纹不锈钢</span
+                                ><br />
+                                <span class="text5">地 板:&nbsp;PVC</span>
+                                <div
+                                    class="web-passenger-product-box-text-bottom"
+                                >
+                                    <a
+                                        href="http://my.3vfang.com/p/share/content.php?m=a3I4MDM5LWl0ZW09NTE2OTQ="
+                                        class="button-link"
+                                        >720°展示</a
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 电梯10 -->
+                    <div class="web-passenger-product">
+                        <div class="web-passenger-product-box">
+                            <div class="web-passenger-product-box-img">
+                                <img
+                                    src="@/assets/images/villa-images/GDMV-10.jpg"
+                                    alt=""
+                                    style="width: 100%; height: 100%"
+                                />
+                            </div>
+                            <div class="web-passenger-product-box-text">
+                                <span class="text4">GDMV-10</span><br />
+                                <span class="text5"
+                                    >吊顶:&nbsp;镜面一体式,LED柔光平板照明灯设计<br />
+                                    娇壁:&nbsp;镜面蚀刻不锈钢，发纹不锈钢</span
+                                ><br />
+                                <span class="text5">地 板:&nbsp;PVC</span>
+                                <div
+                                    class="web-passenger-product-box-text-bottom"
+                                >
+                                    <a
+                                        href="http://my.3vfang.com/p/share/content.php?m=a3I4MDM5LWl0ZW09NTE2OTQ="
+                                        class="button-link"
+                                        >720°展示</a
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -396,6 +454,8 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: space-around; /* 两个盒子分布在两端 */
+    top: 0; /* 固定在顶部 */
+    z-index: 10; /* 确保在其他内容之上 */
 }
 .web .web-center .web-left .navigation {
     width: 9.6875rem;

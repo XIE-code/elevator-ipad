@@ -827,10 +827,10 @@ html {
     border-radius: 120px 120px 120px 0px;
     box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.1);
     background: rgb(255, 255, 255);
+    position: fixed;
     display: flex;
     flex-direction: column;
     justify-content: space-around; /* 两个盒子分布在两端 */
-    align-items: center; /* 垂直居中子元素 */
 }
 .web .web-center .web-left .navigation {
     width: 155px;

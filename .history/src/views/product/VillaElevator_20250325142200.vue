@@ -48,33 +48,31 @@
                     </div>
                 </div>
                 <!-- 乘客电梯产品 -->
-                <div class="center-box" style="margin-top: 1.25rem">
+                <div
+                    style="
+                        display: flex;
+                        flex-direction: column;
+                        gap: 2.4844rem;
+                    "
+                >
                     <!-- 电梯1 -->
                     <div class="web-passenger-product">
                         <div class="web-passenger-product-box">
-                            <div class="web-passenger-product-box-img">
-                                <img
-                                    src="@/assets/images/villa-images/GDMV-01.jpg"
-                                    alt=""
-                                    style="width: 100%; height: 100%"
-                                />
-                            </div>
+                            <div class="web-passenger-product-box-img"></div>
                             <div class="web-passenger-product-box-text">
-                                <span class="text4">GDMV-01</span><br />
-                                <span class="text5"
-                                    >吊顶:&nbsp;镜面不锈钢，亚克力灯饰，LED简灯<br />
-                                    娇壁:&nbsp;不锈钢，黑钛镜面不锈钢，黑钛镜面蚀刻不锈钢</span
+                                <span>GDMV-01</span><br />
+                                <span
+                                    >吊 顶:镜面一体式轿
+                                    娇壁:发纹/黑钛/黑钛蚀刻镜面不锈钢</span
                                 ><br />
-                                <span class="text5"
-                                    >地 板:&nbsp;PVC(大理石可选)</span
-                                >
+                                <span>地 板:大理石</span>
                                 <div
                                     class="web-passenger-product-box-text-bottom"
                                 >
                                     <a
-                                        href="http://my.3vfang.com/p/share/content.php?m=a3I4MDM5LWl0ZW09NTE2OTQ="
+                                        href="http://my.3vfang.com/p/share/content.php?m=a3I4MDM5LWl0ZW09NDgzOTM="
                                         class="button-link"
-                                        >720°展示</a
+                                        >720度展示</a
                                     >
                                 </div>
                             </div>
@@ -83,29 +81,21 @@
                     <!-- 电梯2 -->
                     <div class="web-passenger-product">
                         <div class="web-passenger-product-box">
-                            <div class="web-passenger-product-box-img">
-                                <img
-                                    src="@/assets/images/villa-images/GDMV-02.jpg"
-                                    alt=""
-                                    style="width: 100%; height: 100%"
-                                />
-                            </div>
+                            <div class="web-passenger-product-box-img"></div>
                             <div class="web-passenger-product-box-text">
-                                <span class="text4">GDMV-02</span><br />
-                                <span class="text5"
-                                    >吊顶:&nbsp;镜面不锈钢，发纹不锈钢，暗藏灯带，LED灯<br />
-                                    娇壁:&nbsp;镜面不锈钢，蚀刻，玫瑰金不锈钢，木纹化妆钢板</span
+                                <span>GDMV-01</span><br />
+                                <span
+                                    >吊 顶:镜面一体式轿
+                                    娇壁:发纹/黑钛/黑钛蚀刻镜面不锈钢</span
                                 ><br />
-                                <span class="text5"
-                                    >地 板:&nbsp;PVC(大理石可选)</span
-                                >
+                                <span>地 板:大理石</span>
                                 <div
                                     class="web-passenger-product-box-text-bottom"
                                 >
                                     <a
-                                        href="http://my.3vfang.com/p/share/content.php?m=a3I4MDM5LWl0ZW09NDgzOTQ="
+                                        href="http://my.3vfang.com/p/share/content.php?m=a3I4MDM5LWl0ZW09NDgzOTM="
                                         class="button-link"
-                                        >720°展示</a
+                                        >720度展示</a
                                     >
                                 </div>
                             </div>
@@ -114,29 +104,21 @@
                     <!-- 电梯3 -->
                     <div class="web-passenger-product">
                         <div class="web-passenger-product-box">
-                            <div class="web-passenger-product-box-img">
-                                <img
-                                    src="@/assets/images/villa-images/GDMV-03.jpg"
-                                    alt=""
-                                    style="width: 100%; height: 100%"
-                                />
-                            </div>
+                            <div class="web-passenger-product-box-img"></div>
                             <div class="web-passenger-product-box-text">
-                                <span class="text4">GDMV-03</span><br />
-                                <span class="text5"
-                                    >吊顶:&nbsp;香槟金发纹不锈钢，LED灯带，LED简灯<br />
-                                    娇壁:&nbsp;香槟金镜面蚀刻不锈钢，香槟金发纹不锈钢</span
+                                <span>GDMV-01</span><br />
+                                <span
+                                    >吊 顶:镜面一体式轿
+                                    娇壁:发纹/黑钛/黑钛蚀刻镜面不锈钢</span
                                 ><br />
-                                <span class="text5"
-                                    >地 板:&nbsp;PVC(大理石可选)</span
-                                >
+                                <span>地 板:大理石</span>
                                 <div
                                     class="web-passenger-product-box-text-bottom"
                                 >
                                     <a
-                                        href="http://my.3vfang.com/p/share/content.php?m=a3I4MDM5LWl0ZW09NDgzOTU="
+                                        href="http://my.3vfang.com/p/share/content.php?m=a3I4MDM5LWl0ZW09NDgzOTM="
                                         class="button-link"
-                                        >720°展示</a
+                                        >720度展示</a
                                     >
                                 </div>
                             </div>
@@ -145,29 +127,21 @@
                     <!-- 电梯4 -->
                     <div class="web-passenger-product">
                         <div class="web-passenger-product-box">
-                            <div class="web-passenger-product-box-img">
-                                <img
-                                    src="@/assets/images/villa-images/GDMV-04.jpg"
-                                    alt=""
-                                    style="width: 100%; height: 100%"
-                                />
-                            </div>
+                            <div class="web-passenger-product-box-img"></div>
                             <div class="web-passenger-product-box-text">
-                                <span class="text4">GDMV-04</span><br />
-                                <span class="text5"
-                                    >吊顶:&nbsp;古铜不锈钢嵌条，LED简灯，暗藏灯带<br />
-                                    娇壁:&nbsp;抗指纹古铜不锈钢，古铜镜面不锈钢，古铜镜面蚀刻不锈钢，影木装饰板</span
+                                <span>GDMV-01</span><br />
+                                <span
+                                    >吊 顶:镜面一体式轿
+                                    娇壁:发纹/黑钛/黑钛蚀刻镜面不锈钢</span
                                 ><br />
-                                <span class="text5"
-                                    >地 板:&nbsp;PVC(大理石可选)</span
-                                >
+                                <span>地 板:大理石</span>
                                 <div
                                     class="web-passenger-product-box-text-bottom"
                                 >
                                     <a
-                                        href="http://my.3vfang.com/p/share/content.php?m=a3I4MDM5LWl0ZW09NDgzOTY="
+                                        href="http://my.3vfang.com/p/share/content.php?m=a3I4MDM5LWl0ZW09NDgzOTM="
                                         class="button-link"
-                                        >720°展示</a
+                                        >720度展示</a
                                     >
                                 </div>
                             </div>
@@ -176,29 +150,21 @@
                     <!-- 电梯5 -->
                     <div class="web-passenger-product">
                         <div class="web-passenger-product-box">
-                            <div class="web-passenger-product-box-img">
-                                <img
-                                    src="@/assets/images/villa-images/GDMV-05.jpg"
-                                    alt=""
-                                    style="width: 100%; height: 100%"
-                                />
-                            </div>
+                            <div class="web-passenger-product-box-img"></div>
                             <div class="web-passenger-product-box-text">
-                                <span class="text4">GDMV-05</span><br />
-                                <span class="text5"
-                                    >吊顶:&nbsp;钢板烤漆，古铜边线，LED简灯，暗藏灯带<br />
-                                    娇壁:&nbsp;黄古铜不锈钢，镜面不锈钢，木饰面，大理石纹</span
+                                <span>GDMV-01</span><br />
+                                <span
+                                    >吊 顶:镜面一体式轿
+                                    娇壁:发纹/黑钛/黑钛蚀刻镜面不锈钢</span
                                 ><br />
-                                <span class="text5"
-                                    >地 板:&nbsp;PVC(大理石可选)</span
-                                >
+                                <span>地 板:大理石</span>
                                 <div
                                     class="web-passenger-product-box-text-bottom"
                                 >
                                     <a
-                                        href="http://my.3vfang.com/p/share/content.php?m=a3I4MDM5LWl0ZW09NDgzOTg="
+                                        href="http://my.3vfang.com/p/share/content.php?m=a3I4MDM5LWl0ZW09NDgzOTM="
                                         class="button-link"
-                                        >720°展示</a
+                                        >720度展示</a
                                     >
                                 </div>
                             </div>
@@ -207,29 +173,21 @@
                     <!-- 电梯6 -->
                     <div class="web-passenger-product">
                         <div class="web-passenger-product-box">
-                            <div class="web-passenger-product-box-img">
-                                <img
-                                    src="@/assets/images/villa-images/GDMV-06.jpg"
-                                    alt=""
-                                    style="width: 100%; height: 100%"
-                                />
-                            </div>
+                            <div class="web-passenger-product-box-img"></div>
                             <div class="web-passenger-product-box-text">
-                                <span class="text4">GDMV-06</span><br />
-                                <span class="text5"
-                                    >吊顶:&nbsp;喷砂不锈钢，铝型钢材，LED简灯<br />
-                                    娇壁:&nbsp;镜面不锈钢，岩板，喷砂不锈钢饰条，钢板贴膜暗藏灯带</span
+                                <span>GDMV-01</span><br />
+                                <span
+                                    >吊 顶:镜面一体式轿
+                                    娇壁:发纹/黑钛/黑钛蚀刻镜面不锈钢</span
                                 ><br />
-                                <span class="text5"
-                                    >地 板:&nbsp;人造大理石</span
-                                >
+                                <span>地 板:大理石</span>
                                 <div
                                     class="web-passenger-product-box-text-bottom"
                                 >
                                     <a
-                                        href="http://my.3vfang.com/p/share/content.php?m=a3I4MDM5LWl0ZW09NDgzOTk="
+                                        href="http://my.3vfang.com/p/share/content.php?m=a3I4MDM5LWl0ZW09NDgzOTM="
                                         class="button-link"
-                                        >720°展示</a
+                                        >720度展示</a
                                     >
                                 </div>
                             </div>
@@ -238,27 +196,21 @@
                     <!-- 电梯7 -->
                     <div class="web-passenger-product">
                         <div class="web-passenger-product-box">
-                            <div class="web-passenger-product-box-img">
-                                <img
-                                    src="@/assets/images/villa-images/GDMV-07.jpg"
-                                    alt=""
-                                    style="width: 100%; height: 100%"
-                                />
-                            </div>
+                            <div class="web-passenger-product-box-img"></div>
                             <div class="web-passenger-product-box-text">
-                                <span class="text4">GDMV-07</span><br />
-                                <span class="text5"
-                                    >吊顶:&nbsp;镜面一体式,LED柔光平板照明灯设计<br />
-                                    娇壁:&nbsp;镜面蚀刻不锈钢，发纹不锈钢</span
+                                <span>GDMV-01</span><br />
+                                <span
+                                    >吊 顶:镜面一体式轿
+                                    娇壁:发纹/黑钛/黑钛蚀刻镜面不锈钢</span
                                 ><br />
-                                <span class="text5">地 板:&nbsp;PVC</span>
+                                <span>地 板:大理石</span>
                                 <div
                                     class="web-passenger-product-box-text-bottom"
                                 >
                                     <a
-                                        href="http://my.3vfang.com/p/share/content.php?m=a3I4MDM5LWl0ZW09NDg0MDA="
+                                        href="http://my.3vfang.com/p/share/content.php?m=a3I4MDM5LWl0ZW09NDgzOTM="
                                         class="button-link"
-                                        >720°展示</a
+                                        >720度展示</a
                                     >
                                 </div>
                             </div>
@@ -267,29 +219,67 @@
                     <!-- 电梯8 -->
                     <div class="web-passenger-product">
                         <div class="web-passenger-product-box">
-                            <div class="web-passenger-product-box-img">
-                                <img
-                                    src="@/assets/images/villa-images/GDMV-08.jpg"
-                                    alt=""
-                                    style="width: 100%; height: 100%"
-                                />
-                            </div>
+                            <div class="web-passenger-product-box-img"></div>
                             <div class="web-passenger-product-box-text">
-                                <span class="text4">GDMV-08</span><br />
-                                <span class="text5"
-                                    >吊顶:&nbsp;古铜不锈钢，LED灯带<br />
-                                    娇壁:&nbsp;古铜不锈钢，古铜蚀刻不锈钢，古铜镜面不锈钢</span
+                                <span>GDMV-01</span><br />
+                                <span
+                                    >吊 顶:镜面一体式轿
+                                    娇壁:发纹/黑钛/黑钛蚀刻镜面不锈钢</span
                                 ><br />
-                                <span class="text5"
-                                    >地 板:&nbsp;PVC(大理石可选)</span
-                                >
+                                <span>地 板:大理石</span>
                                 <div
                                     class="web-passenger-product-box-text-bottom"
                                 >
                                     <a
-                                        href="http://my.3vfang.com/p/share/content.php?m=a3I4MDM5LWl0ZW09NTE2OTQ="
+                                        href="http://my.3vfang.com/p/share/content.php?m=a3I4MDM5LWl0ZW09NDgzOTM="
                                         class="button-link"
-                                        >720°展示</a
+                                        >720度展示</a
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 电梯9 -->
+                    <div class="web-passenger-product">
+                        <div class="web-passenger-product-box">
+                            <div class="web-passenger-product-box-img"></div>
+                            <div class="web-passenger-product-box-text">
+                                <span>GDMV-01</span><br />
+                                <span
+                                    >吊 顶:镜面一体式轿
+                                    娇壁:发纹/黑钛/黑钛蚀刻镜面不锈钢</span
+                                ><br />
+                                <span>地 板:大理石</span>
+                                <div
+                                    class="web-passenger-product-box-text-bottom"
+                                >
+                                    <a
+                                        href="http://my.3vfang.com/p/share/content.php?m=a3I4MDM5LWl0ZW09NDgzOTM="
+                                        class="button-link"
+                                        >720度展示</a
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 电梯10 -->
+                    <div class="web-passenger-product">
+                        <div class="web-passenger-product-box">
+                            <div class="web-passenger-product-box-img"></div>
+                            <div class="web-passenger-product-box-text">
+                                <span>GDMV-01</span><br />
+                                <span
+                                    >吊 顶:镜面一体式轿
+                                    娇壁:发纹/黑钛/黑钛蚀刻镜面不锈钢</span
+                                ><br />
+                                <span>地 板:大理石</span>
+                                <div
+                                    class="web-passenger-product-box-text-bottom"
+                                >
+                                    <a
+                                        href="http://my.3vfang.com/p/share/content.php?m=a3I4MDM5LWl0ZW09NDgzOTM="
+                                        class="button-link"
+                                        >720度展示</a
                                     >
                                 </div>
                             </div>
@@ -337,8 +327,9 @@ html {
 }
 .web .web-header {
     height: 9.33vh;
+    background-color: pink;
     position: relative;
-    width: 99vw;
+    width: 46.875rem;
     min-width: 46.875rem;
 }
 .web .web-header .web-header-box {
@@ -396,6 +387,8 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: space-around; /* 两个盒子分布在两端 */
+    top: 0; /* 固定在顶部 */
+    z-index: 10; /* 确保在其他内容之上 */
 }
 .web .web-center .web-left .navigation {
     width: 9.6875rem;
@@ -458,9 +451,8 @@ html {
     background: rgb(255, 255, 255);
 }
 .web .web-center .web-text .web-passenger-product .web-passenger-product-box {
-    width: 100%;
+    width: 96%;
     height: 90%;
-    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: space-around; /* 两个盒子分布在两端 */
@@ -473,11 +465,11 @@ html {
     .web-passenger-product
     .web-passenger-product-box
     .web-passenger-product-box-img {
-    width: 9.375rem;
-    height: 15.625rem;
+    width: 40%;
+    height: 99%;
+    background: pink;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 10px;
 }
 .web
     .web-center
@@ -499,6 +491,7 @@ html {
     .web-passenger-product-box-text {
     width: 60%;
     height: 100%;
+    background: pink;
     margin: auto;
     color: rgb(0, 80, 165);
     font-family: 思源黑体;
@@ -518,6 +511,7 @@ html {
     .web-passenger-product-box-text
     .web-passenger-product-box-text-bottom {
     margin-top: bottom;
+    background: pink;
 }
 .button-link {
     display: inline-block;
@@ -632,7 +626,5 @@ html {
         transform: scale(0.45);
         transform-origin: top left;
     }
-}
-@media screen and (min-width: 776px) {
 }
 </style>

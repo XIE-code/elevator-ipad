@@ -830,7 +830,6 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: space-around; /* 两个盒子分布在两端 */
-    align-items: center; /* 垂直居中子元素 */
 }
 .web .web-center .web-left .navigation {
     width: 155px;
@@ -891,6 +890,7 @@ html {
     box-sizing: border-box;
     border: 0.0625rem solid rgba(0, 0, 0, 0.24);
     background: rgb(255, 255, 255);
+    overflow-y: scroll;
 }
 .web .web-center .web-text .web-passenger-product .web-passenger-product-box {
     width: 96%;
@@ -955,7 +955,6 @@ html {
 .button-link {
     display: inline-block;
     width: 100%;
-    margin-bottom: 0.625rem;
     max-width: 9.375rem;
     height: 2.5rem;
     color: white;

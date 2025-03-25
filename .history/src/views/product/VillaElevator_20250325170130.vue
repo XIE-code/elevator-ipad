@@ -396,6 +396,9 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: space-around; /* 两个盒子分布在两端 */
+    position: fixed;
+    top: 0; /* 固定在顶部 */
+    z-index: 10; /* 确保在其他内容之上 */
 }
 .web .web-center .web-left .navigation {
     width: 9.6875rem;
@@ -435,6 +438,7 @@ html {
     width: 18.125rem;
     background-size: cover;
     background-repeat: no-repeat;
+    margin-left: 140px;
 }
 .web
     .web-center

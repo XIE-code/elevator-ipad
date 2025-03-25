@@ -830,7 +830,6 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: space-around; /* 两个盒子分布在两端 */
-    align-items: center; /* 垂直居中子元素 */
 }
 .web .web-center .web-left .navigation {
     width: 155px;
@@ -955,7 +954,7 @@ html {
 .button-link {
     display: inline-block;
     width: 100%;
-    margin-bottom: 0.625rem;
+    margin-bottom: 5px;
     max-width: 9.375rem;
     height: 2.5rem;
     color: white;

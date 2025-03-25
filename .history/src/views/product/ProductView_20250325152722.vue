@@ -51,13 +51,13 @@
                     </div>
                 </div>
                 <!-- 乘客电梯产品 -->
-                <div class="center-box" style="margin-top: 1.25rem">
+                <div class="center-box">
                     <!-- 电梯1 -->
                     <div class="web-passenger-product">
                         <div class="web-passenger-product-box">
                             <div class="web-passenger-product-box-img">
                                 <img
-                                    src="@/assets/images/elevator_images/image01.png"
+                                    src="@/assets/images/elevator_images/image03.png"
                                     alt=""
                                 />
                             </div>
@@ -738,6 +738,7 @@ html {
 }
 .web .web-header {
     height: 9.33vh;
+    background-color: pink;
     position: relative;
     width: 99vw;
     min-width: 46.875rem;
@@ -830,7 +831,8 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: space-around; /* 两个盒子分布在两端 */
-    align-items: center; /* 垂直居中子元素 */
+    top: 0; /* 固定在顶部 */
+    z-index: 10; /* 确保在其他内容之上 */
 }
 .web .web-center .web-left .navigation {
     width: 155px;
@@ -908,11 +910,11 @@ html {
     .web-passenger-product
     .web-passenger-product-box
     .web-passenger-product-box-img {
-    width: 9.375rem;
-    height: 15.625rem;
+    width: 40%;
+    height: 99%;
+    background: pink;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 10px;
 }
 .web
     .web-center
@@ -932,6 +934,9 @@ html {
     .web-passenger-product
     .web-passenger-product-box
     .web-passenger-product-box-text {
+    width: 60%;
+    height: 100%;
+    background: pink;
     margin: auto;
     color: rgb(0, 80, 165);
     font-family: 思源黑体;
@@ -951,11 +956,11 @@ html {
     .web-passenger-product-box-text
     .web-passenger-product-box-text-bottom {
     margin-top: bottom;
+    background: pink;
 }
 .button-link {
     display: inline-block;
     width: 100%;
-    margin-bottom: 0.625rem;
     max-width: 9.375rem;
     height: 2.5rem;
     color: white;
@@ -1064,18 +1069,6 @@ html {
 @media screen and (max-width: 23.5rem) {
     .web {
         transform: scale(0.45);
-        transform-origin: top left;
-    }
-}
-@media screen and (min-width: 1000px) {
-    .web {
-        transform: scale(1.45);
-        transform-origin: top left;
-    }
-}
-@media screen and (min-width: 1300px) {
-    .web {
-        transform: scale(1.85);
         transform-origin: top left;
     }
 }

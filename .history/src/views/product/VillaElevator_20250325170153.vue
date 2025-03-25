@@ -362,6 +362,7 @@ html {
     width: 31.25rem;
     height: 75rem;
     margin-left: 40px;
+    margin-left: 150px;
 }
 .web .web-text .center-title {
     width: 12.5rem;
@@ -396,6 +397,9 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: space-around; /* 两个盒子分布在两端 */
+    position: fixed;
+    top: 0; /* 固定在顶部 */
+    z-index: 10; /* 确保在其他内容之上 */
 }
 .web .web-center .web-left .navigation {
     width: 9.6875rem;

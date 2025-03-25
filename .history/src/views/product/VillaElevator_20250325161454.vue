@@ -63,11 +63,9 @@
                                 <span class="text4">GDMV-01</span><br />
                                 <span class="text5"
                                     >吊顶:&nbsp;镜面不锈钢，亚克力灯饰，LED简灯<br />
-                                    娇壁:&nbsp;不锈钢，黑钛镜面不锈钢，黑钛镜面蚀刻不锈钢</span
+                                    娇壁:&nbsp;发纹/黑钛/黑钛蚀刻镜面不锈钢</span
                                 ><br />
-                                <span class="text5"
-                                    >地 板:&nbsp;PVC(大理石可选)</span
-                                >
+                                <span class="text5">地 板:&nbsp;大理石</span>
                                 <div
                                     class="web-passenger-product-box-text-bottom"
                                 >
@@ -93,12 +91,10 @@
                             <div class="web-passenger-product-box-text">
                                 <span class="text4">GDMV-02</span><br />
                                 <span class="text5"
-                                    >吊顶:&nbsp;镜面不锈钢，发纹不锈钢，暗藏灯带，LED灯<br />
-                                    娇壁:&nbsp;镜面不锈钢，蚀刻，玫瑰金不锈钢，木纹化妆钢板</span
+                                    >吊顶:&nbsp;镜面一体式,LED柔光平板照明灯设计<br />
+                                    娇壁:&nbsp;镜面蚀刻不锈钢，发纹不锈钢</span
                                 ><br />
-                                <span class="text5"
-                                    >地 板:&nbsp;PVC(大理石可选)</span
-                                >
+                                <span class="text5">地 板:&nbsp;PVC</span>
                                 <div
                                     class="web-passenger-product-box-text-bottom"
                                 >
@@ -124,12 +120,10 @@
                             <div class="web-passenger-product-box-text">
                                 <span class="text4">GDMV-03</span><br />
                                 <span class="text5"
-                                    >吊顶:&nbsp;香槟金发纹不锈钢，LED灯带，LED简灯<br />
-                                    娇壁:&nbsp;香槟金镜面蚀刻不锈钢，香槟金发纹不锈钢</span
+                                    >吊顶:&nbsp;镜面一体式,LED柔光平板照明灯设计<br />
+                                    娇壁:&nbsp;镜面蚀刻不锈钢，发纹不锈钢</span
                                 ><br />
-                                <span class="text5"
-                                    >地 板:&nbsp;PVC(大理石可选)</span
-                                >
+                                <span class="text5">地 板:&nbsp;PVC</span>
                                 <div
                                     class="web-passenger-product-box-text-bottom"
                                 >
@@ -155,12 +149,10 @@
                             <div class="web-passenger-product-box-text">
                                 <span class="text4">GDMV-04</span><br />
                                 <span class="text5"
-                                    >吊顶:&nbsp;古铜不锈钢嵌条，LED简灯，暗藏灯带<br />
-                                    娇壁:&nbsp;抗指纹古铜不锈钢，古铜镜面不锈钢，古铜镜面蚀刻不锈钢，影木装饰板</span
+                                    >吊顶:&nbsp;镜面一体式,LED柔光平板照明灯设计<br />
+                                    娇壁:&nbsp;镜面蚀刻不锈钢，发纹不锈钢</span
                                 ><br />
-                                <span class="text5"
-                                    >地 板:&nbsp;PVC(大理石可选)</span
-                                >
+                                <span class="text5">地 板:&nbsp;PVC</span>
                                 <div
                                     class="web-passenger-product-box-text-bottom"
                                 >
@@ -186,12 +178,10 @@
                             <div class="web-passenger-product-box-text">
                                 <span class="text4">GDMV-05</span><br />
                                 <span class="text5"
-                                    >吊顶:&nbsp;钢板烤漆，古铜边线，LED简灯，暗藏灯带<br />
-                                    娇壁:&nbsp;黄古铜不锈钢，镜面不锈钢，木饰面，大理石纹</span
+                                    >吊顶:&nbsp;镜面一体式,LED柔光平板照明灯设计<br />
+                                    娇壁:&nbsp;镜面蚀刻不锈钢，发纹不锈钢</span
                                 ><br />
-                                <span class="text5"
-                                    >地 板:&nbsp;PVC(大理石可选)</span
-                                >
+                                <span class="text5">地 板:&nbsp;PVC</span>
                                 <div
                                     class="web-passenger-product-box-text-bottom"
                                 >
@@ -217,12 +207,10 @@
                             <div class="web-passenger-product-box-text">
                                 <span class="text4">GDMV-06</span><br />
                                 <span class="text5"
-                                    >吊顶:&nbsp;喷砂不锈钢，铝型钢材，LED简灯<br />
-                                    娇壁:&nbsp;镜面不锈钢，岩板，喷砂不锈钢饰条，钢板贴膜暗藏灯带</span
+                                    >吊顶:&nbsp;镜面一体式,LED柔光平板照明灯设计<br />
+                                    娇壁:&nbsp;镜面蚀刻不锈钢，发纹不锈钢</span
                                 ><br />
-                                <span class="text5"
-                                    >地 板:&nbsp;人造大理石</span
-                                >
+                                <span class="text5">地 板:&nbsp;PVC</span>
                                 <div
                                     class="web-passenger-product-box-text-bottom"
                                 >
@@ -277,12 +265,68 @@
                             <div class="web-passenger-product-box-text">
                                 <span class="text4">GDMV-08</span><br />
                                 <span class="text5"
-                                    >吊顶:&nbsp;古铜不锈钢，LED灯带<br />
-                                    娇壁:&nbsp;古铜不锈钢，古铜蚀刻不锈钢，古铜镜面不锈钢</span
+                                    >吊顶:&nbsp;镜面一体式,LED柔光平板照明灯设计<br />
+                                    娇壁:&nbsp;镜面蚀刻不锈钢，发纹不锈钢</span
                                 ><br />
-                                <span class="text5"
-                                    >地 板:&nbsp;PVC(大理石可选)</span
+                                <span class="text5">地 板:&nbsp;PVC</span>
+                                <div
+                                    class="web-passenger-product-box-text-bottom"
                                 >
+                                    <a
+                                        href="http://my.3vfang.com/p/share/content.php?m=a3I4MDM5LWl0ZW09NTE2OTQ="
+                                        class="button-link"
+                                        >720°展示</a
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 电梯9 -->
+                    <div class="web-passenger-product">
+                        <div class="web-passenger-product-box">
+                            <div class="web-passenger-product-box-img">
+                                <img
+                                    src="@/assets/images/villa-images/GDMV-09.jpg"
+                                    alt=""
+                                    style="width: 100%; height: 100%"
+                                />
+                            </div>
+                            <div class="web-passenger-product-box-text">
+                                <span class="text4">GDMV-09</span><br />
+                                <span class="text5"
+                                    >吊顶:&nbsp;镜面一体式,LED柔光平板照明灯设计<br />
+                                    娇壁:&nbsp;镜面蚀刻不锈钢，发纹不锈钢</span
+                                ><br />
+                                <span class="text5">地 板:&nbsp;PVC</span>
+                                <div
+                                    class="web-passenger-product-box-text-bottom"
+                                >
+                                    <a
+                                        href="http://my.3vfang.com/p/share/content.php?m=a3I4MDM5LWl0ZW09NTE2OTQ="
+                                        class="button-link"
+                                        >720°展示</a
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 电梯10 -->
+                    <div class="web-passenger-product">
+                        <div class="web-passenger-product-box">
+                            <div class="web-passenger-product-box-img">
+                                <img
+                                    src="@/assets/images/villa-images/GDMV-10.jpg"
+                                    alt=""
+                                    style="width: 100%; height: 100%"
+                                />
+                            </div>
+                            <div class="web-passenger-product-box-text">
+                                <span class="text4">GDMV-10</span><br />
+                                <span class="text5"
+                                    >吊顶:&nbsp;镜面一体式,LED柔光平板照明灯设计<br />
+                                    娇壁:&nbsp;镜面蚀刻不锈钢，发纹不锈钢</span
+                                ><br />
+                                <span class="text5">地 板:&nbsp;PVC</span>
                                 <div
                                     class="web-passenger-product-box-text-bottom"
                                 >
@@ -396,6 +440,8 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: space-around; /* 两个盒子分布在两端 */
+    top: 0; /* 固定在顶部 */
+    z-index: 10; /* 确保在其他内容之上 */
 }
 .web .web-center .web-left .navigation {
     width: 9.6875rem;

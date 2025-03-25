@@ -856,6 +856,7 @@ html {
     display: flex;
     flex-direction: column;
     gap: 30px;
+    overflow-y: scroll;
 }
 .web .web-center .web-text .web-passenger .web-passenger-image {
     height: 173px;

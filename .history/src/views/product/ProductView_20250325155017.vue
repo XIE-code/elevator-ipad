@@ -51,7 +51,7 @@
                     </div>
                 </div>
                 <!-- 乘客电梯产品 -->
-                <div class="center-box" style="margin-top: 1.25rem">
+                <div class="center-box">
                     <!-- 电梯1 -->
                     <div class="web-passenger-product">
                         <div class="web-passenger-product-box">
@@ -738,6 +738,7 @@ html {
 }
 .web .web-header {
     height: 9.33vh;
+    background-color: pink;
     position: relative;
     width: 99vw;
     min-width: 46.875rem;
@@ -830,7 +831,8 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: space-around; /* 两个盒子分布在两端 */
-    align-items: center; /* 垂直居中子元素 */
+    top: 0; /* 固定在顶部 */
+    z-index: 10; /* 确保在其他内容之上 */
 }
 .web .web-center .web-left .navigation {
     width: 155px;
@@ -955,7 +957,6 @@ html {
 .button-link {
     display: inline-block;
     width: 100%;
-    margin-bottom: 0.625rem;
     max-width: 9.375rem;
     height: 2.5rem;
     color: white;
@@ -1067,15 +1068,9 @@ html {
         transform-origin: top left;
     }
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 776px) {
     .web {
-        transform: scale(1.45);
-        transform-origin: top left;
-    }
-}
-@media screen and (min-width: 1300px) {
-    .web {
-        transform: scale(1.85);
+        transform: scale(0.45);
         transform-origin: top left;
     }
 }
