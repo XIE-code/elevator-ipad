@@ -471,6 +471,20 @@ html {
     flex-direction: column;
 }
 
+/* 横屏模式 */
+@media (orientation: landscape) {
+    .container {
+        flex-direction: row;
+    }
+}
+
+/* 竖屏模式 */
+@media (orientation: portrait) {
+    .container {
+        flex-direction: column;
+    }
+}
+
 @media screen and (max-width: 480px) {
     .web {
         transform: scale(0.55);
