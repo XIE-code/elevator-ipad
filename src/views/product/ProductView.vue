@@ -2,10 +2,6 @@
     <div class="web">
         <!-- 页面头部按钮 -->
         <div class="web-header">
-            <!-- <div class="web-header-box">
-                <div class="web-header-box1"></div>
-                <div class="web-header-box2"></div>
-            </div> -->
             <div class="web-header-awa"></div>
         </div>
         <!-- 页面主体 -->
@@ -296,7 +292,7 @@ html {
 .web .web-text {
     width: 500px;
     height: 1200px;
-    margin-left: 2.5rem;
+    margin-left: 25vw;
 }
 .web .web-text .center-title {
     width: 200px;
@@ -320,8 +316,8 @@ html {
     flex-direction: row;
 }
 .web .web-center .web-left {
-    width: 141px;
-    height: 659px;
+    width: 135px;
+    height: 650px;
     border-bottom: 1px solid rgba(184, 183, 183, 0.09);
     border-left: 1px solid rgba(184, 183, 183, 0.09);
     border-right: 1px solid rgba(184, 183, 183, 0.09);
@@ -332,6 +328,10 @@ html {
     flex-direction: column;
     justify-content: space-around; /* 两个盒子分布在两端 */
     align-items: center; /* 垂直居中子元素 */
+    position: fixed;
+    z-index: 1;
+    top: 100px;
+    left: 0;
 }
 .web .web-center .web-left .navigation {
     width: 155px;
@@ -553,27 +553,33 @@ html {
 }
 
 @media screen and (max-width: 480px) {
-    .web {
-        transform: scale(0.55);
+    .web .web-header,
+    .web .web-text {
+        transform: scale(0.52);
         transform-origin: top left;
     }
-}
-
-@media screen and (max-width: 431px) {
-    .web {
+    .web .web-center .web-left {
+        top: -100px;
+        left: -20px;
         transform: scale(0.5);
-        transform-origin: top left;
     }
 }
 
 @media screen and (max-width: 376px) {
-    .web {
+    .web .web-header,
+    .web .web-text {
         transform: scale(0.45);
         transform-origin: top left;
     }
+    .web .web-center .web-left {
+        top: -100px;
+        left: -15px;
+        transform: scale(0.5);
+    }
 }
 @media screen and (min-width: 1000px) {
-    .web {
+    .web .web-header,
+    .web .web-text {
         transform: scale(1.25);
         transform-origin: top left;
     }

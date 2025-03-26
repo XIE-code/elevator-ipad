@@ -35,10 +35,7 @@
                             >&nbsp;&nbsp;&nbsp;
                             <span class="english"> Villa elevator</span>
                             <hr
-                                style="
-                                    border: 0.1875rem solid
-                                        rgba(0, 43, 125, 0.85);
-                                "
+                                style="border: 3px solid rgba(0, 43, 125, 0.85)"
                             />
                             <span class="text3"
                                 >主要用于提升生活便捷性、增强家居安
@@ -48,7 +45,7 @@
                     </div>
                 </div>
                 <!-- 乘客电梯产品 -->
-                <div class="center-box" style="margin-top: 1.25rem">
+                <div class="center-box" style="margin-top: 20px">
                     <!-- 动态渲染电梯产品 -->
                     <div
                         v-for="(item, index) in elist"
@@ -168,7 +165,7 @@ html {
 }
 /* 动态调整 html 的 font-size */
 html {
-    font-size: calc(0.625rem + 0.5vw); /* 动态调整字体大小 */
+    font-size: calc(10px + 0.5vw); /* 动态调整字体大小 */
 }
 .web {
     width: 100%;
@@ -181,19 +178,19 @@ html {
     height: 9.33vh;
     position: relative;
     width: 99vw;
-    min-width: 46.875rem;
+    min-width: 750px;
 }
 .web .web-header .web-header-box {
-    width: 80px;
-    height: 40px;
+    width: 5rem;
+    height: 2.5rem;
     background: whitesmoke;
     display: flex;
     flex-direction: row;
 }
 .web .web-header .web-header-awa {
     /* 小马 */
-    width: 156px;
-    height: 64px;
+    width: 9.75rem;
+    height: 4rem;
     top: 0;
     right: 0;
     position: absolute;
@@ -203,11 +200,11 @@ html {
 .web .web-text {
     width: 500px;
     height: 1200px;
-    margin-left: 2.5rem;
+    margin-left: 25vw;
 }
 .web .web-text .center-title {
-    width: 200px;
-    height: 100px;
+    width: 12.5rem;
+    height: 6.25rem;
     margin: auto;
     text-align: center;
     display: flex;
@@ -215,10 +212,10 @@ html {
     white-space: nowrap;
     color: rgba(0, 43, 125, 0.76);
     font-family: 思源黑体;
-    font-size: 1.5rem;
+    font-size: 24px;
     font-weight: 700;
-    line-height: 2.1875rem;
-    letter-spacing: -0.1875rem;
+    line-height: 35px;
+    letter-spacing: -3px;
     text-align: left;
 }
 
@@ -227,8 +224,8 @@ html {
     flex-direction: row;
 }
 .web .web-center .web-left {
-    width: 141px;
-    height: 659px;
+    width: 135px;
+    height: 650px;
     border-bottom: 1px solid rgba(184, 183, 183, 0.09);
     border-left: 1px solid rgba(184, 183, 183, 0.09);
     border-right: 1px solid rgba(184, 183, 183, 0.09);
@@ -239,13 +236,17 @@ html {
     flex-direction: column;
     justify-content: space-around; /* 两个盒子分布在两端 */
     align-items: center; /* 垂直居中子元素 */
+    position: fixed;
+    z-index: 1;
+    top: 100px;
+    left: 0;
 }
 .web .web-center .web-left .navigation {
-    width: 155px;
-    height: 85px;
-    border-radius: 0px 50px 50px 0px;
+    width: 9.6875rem;
+    height: 5.3125rem;
+    border-radius: 0rem 3.125rem 3.125rem 0rem;
     background: white;
-    font-size: 20px;
+    font-size: 1.25rem;
     transition: background-color 0.3s; /* 添加背景颜色过渡效果 */
     cursor: pointer;
 }
@@ -255,26 +256,26 @@ html {
 }
 
 .web .web-center .web-text .web-passenger {
-    width: 540px;
-    height: 200px;
+    width: 33.75rem;
+    height: 12.5rem;
     display: flex;
     flex-direction: row;
 }
 .web .web-text .center-box {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 1.875rem;
 }
 .web .web-center .web-text .web-passenger .web-passenger-image {
-    height: 173px;
-    width: 250px;
+    height: 10.8125rem;
+    width: 15.625rem;
     background-image: url("../../../public/images/image-villa.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
 .web .web-center .web-text .web-passenger .web-passenger-text {
-    height: 173px;
-    width: 290px;
+    height: 10.8125rem;
+    width: 18.125rem;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -285,7 +286,7 @@ html {
     .web-passenger-text
     .web-passenger-text1 {
     width: 100%;
-    height: 1.25rem;
+    height: 20px;
 }
 
 .web .web-center .web-text .web-passenger-product {
@@ -296,7 +297,7 @@ html {
     justify-content: center; /* 水平居中子元素 */
     align-items: center; /* 垂直居中子元素（可选） */
     box-sizing: border-box;
-    border: 0.0625rem solid rgba(0, 0, 0, 0.24);
+    border: 1px solid rgba(0, 0, 0, 0.24);
     background: rgb(255, 255, 255);
 }
 .web .web-center .web-text .web-passenger-product .web-passenger-product-box {
@@ -315,11 +316,11 @@ html {
     .web-passenger-product
     .web-passenger-product-box
     .web-passenger-product-box-img {
-    width: 9.375rem;
-    height: 15.625rem;
+    width: 150px;
+    height: 250px;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 10px;
+    padding: 0.625rem;
 }
 .web
     .web-center
@@ -342,10 +343,10 @@ html {
     margin: auto;
     color: rgb(0, 80, 165);
     font-family: 思源黑体;
-    font-size: 1.5rem;
+    font-size: 24px;
     font-weight: 400;
-    line-height: 2.1875rem;
-    letter-spacing: 0rem;
+    line-height: 35px;
+    letter-spacing: 0px;
     text-align: left;
     flex: 1; /* 文字部分占满剩余空间 */
 }
@@ -362,67 +363,67 @@ html {
 .button-link {
     display: inline-block;
     width: 100%;
-    margin-bottom: 0.625rem;
-    max-width: 9.375rem;
-    height: 2.5rem;
+    margin-bottom: 10px;
+    max-width: 150px;
+    height: 40px;
     color: white;
     text-decoration: none;
-    border-radius: 3.125rem;
+    border-radius: 50px;
     background: rgb(170, 215, 239);
     border: none;
     cursor: pointer;
     color: rgb(0, 0, 0);
     font-family: 思源黑体;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
-    line-height: 39px;
-    letter-spacing: 0rem;
+    line-height: 2.4375rem;
+    letter-spacing: 0px;
     text-align: center;
 }
 /* 字体 */
 .chinese {
     color: rgba(0, 43, 125, 0.85);
     font-family: 思源黑体;
-    font-size: 1.625rem;
+    font-size: 26px;
     font-weight: 700;
-    line-height: 2.375rem;
-    letter-spacing: -0.1875rem;
+    line-height: 38px;
+    letter-spacing: -3px;
     text-align: left;
 }
 .english {
     color: rgba(0, 43, 125, 0.85);
     font-family: 思源黑体;
-    font-size: 0.875rem;
+    font-size: 14px;
     font-weight: 400;
-    line-height: 1.25rem;
-    letter-spacing: 0rem;
+    line-height: 20px;
+    letter-spacing: 0px;
     text-align: left;
 }
 .text3 {
     color: rgba(117, 171, 227, 0.87);
     font-family: 思源黑体;
-    font-size: 1.125rem;
+    font-size: 18px;
     font-weight: 700;
-    line-height: 1.625rem;
-    letter-spacing: 0rem;
+    line-height: 26px;
+    letter-spacing: 0px;
     text-align: left;
 }
 .text4 {
     color: rgb(0, 43, 125);
     font-family: 思源黑体;
-    font-size: 1.75rem;
+    font-size: 28px;
     font-weight: 400;
-    line-height: 2.5625rem;
-    letter-spacing: 0rem;
+    line-height: 41px;
+    letter-spacing: 0px;
     text-align: left;
 }
 .text5 {
     color: rgb(0, 80, 165);
     font-family: 思源黑体;
-    font-size: 1.25rem;
+    font-size: 20px;
     font-weight: 400;
-    line-height: 2.1875rem;
-    letter-spacing: 0rem;
+    line-height: 35px;
+    letter-spacing: 0px;
     text-align: left;
 
     display: block; /* 让每个 span 变成独立块，自动换行 */
@@ -433,19 +434,19 @@ html {
 .text6 {
     color: rgba(0, 43, 125, 0.85);
     font-family: 思源黑体;
-    font-size: 1.25rem;
+    font-size: 20px;
     font-weight: 700;
-    line-height: 1.8125rem;
-    letter-spacing: 0rem;
+    line-height: 29px;
+    letter-spacing: 0px;
     text-align: left;
 }
 .text7 {
     color: rgba(0, 43, 125, 0.85);
     font-family: 思源黑体;
-    font-size: 0.75rem;
+    font-size: 12px;
     font-weight: 400;
-    line-height: 1.0625rem;
-    letter-spacing: 0rem;
+    line-height: 17px;
+    letter-spacing: 0px;
     text-align: left;
 }
 /* 添加高亮效果的样式 */
@@ -460,27 +461,33 @@ html {
 }
 
 @media screen and (max-width: 480px) {
-    .web {
-        transform: scale(0.55);
+    .web .web-header,
+    .web .web-text {
+        transform: scale(0.52);
         transform-origin: top left;
     }
-}
-
-@media screen and (max-width: 431px) {
-    .web {
+    .web .web-center .web-left {
+        top: -100px;
+        left: -20px;
         transform: scale(0.5);
-        transform-origin: top left;
     }
 }
 
 @media screen and (max-width: 376px) {
-    .web {
+    .web .web-header,
+    .web .web-text {
         transform: scale(0.45);
         transform-origin: top left;
     }
+    .web .web-center .web-left {
+        top: -100px;
+        left: -15px;
+        transform: scale(0.5);
+    }
 }
 @media screen and (min-width: 1000px) {
-    .web {
+    .web .web-header,
+    .web .web-text {
         transform: scale(1.25);
         transform-origin: top left;
     }
