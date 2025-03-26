@@ -57,7 +57,7 @@
                     >
                         <div class="web-passenger-product-box">
                             <div class="web-passenger-product-box-img">
-                                <img :src="item.imgUrl" :alt="item.name" />
+                                <img src="item.imgUrl" :alt="item.name" />
                             </div>
                             <div class="web-passenger-product-box-text">
                                 <span class="text4">{{ item.name }}</span>
@@ -90,60 +90,11 @@ const router = useRouter();
 // 定义电梯产品数据
 const elist = ref([
     {
-        imgUrl: "/images/villa-images/GDMV-01.jpg",
-        name: "GDMV-01",
+        imgUrl: "/images/elevator_images/image01.png",
+        name: "GDMK-01|浅云",
         description:
-            "吊顶: 镜面不锈钢，亚克力灯饰，LED简灯\n娇壁: 发纹不锈钢，黑钛镜面不锈钢，黑钛镜面蚀刻不锈钢\n地板: PVC(大理石可选)",
-        link: "http://my.3vfang.com/p/share/content.php?m=a3I4MDM5LWl0ZW09NDgzOTM=",
-    },
-    {
-        imgUrl: "/images/villa-images/GDMV-02.jpg",
-        name: "GDMV-02",
-        description:
-            "吊顶: 镜面不锈钢，发纹不锈钢，暗藏灯带，LED灯\n娇壁: 镜面不锈钢，蚀刻，玫瑰金不锈钢，木纹化妆钢板\n地板: PVC(大理石可选)",
-        link: "http://my.3vfang.com/p/share/content.php?m=a3I4MDM5LWl0ZW09NDgzOTQ=",
-    },
-    {
-        imgUrl: "/images/villa-images/GDMV-03.jpg",
-        name: "GDMV-03",
-        description:
-            "吊顶: 香槟金发纹不锈钢，LED灯带，LED简灯\n娇壁: 香槟金镜面蚀刻不锈钢，香槟金发纹不锈钢\n地板: PVC(大理石可选)",
-        link: "http://my.3vfang.com/p/share/content.php?m=a3I4MDM5LWl0ZW09NDgzOTU=",
-    },
-    {
-        imgUrl: "/images/villa-images/GDMV-04.jpg",
-        name: "GDMV-04",
-        description:
-            "吊顶: 古铜不锈钢嵌条，LED简灯，暗藏灯带\n娇壁: 抗指纹古铜不锈钢，古铜镜面不锈钢，古铜镜面蚀刻不锈钢，影木装饰板\n地板: PVC(大理石可选)",
-        link: "http://my.3vfang.com/p/share/content.php?m=a3I4MDM5LWl0ZW09NDgzOTY=",
-    },
-    {
-        imgUrl: "/images/villa-images/GDMV-05.jpg",
-        name: "GDMV-05",
-        description:
-            "吊顶: 钢板烤漆，古铜边线，LED简灯，暗藏灯带\n娇壁: 黄古铜不锈钢，镜面不锈钢，木饰面，大理石纹\n地板: PVC(大理石可选)",
-        link: "http://my.3vfang.com/p/share/content.php?m=a3I4MDM5LWl0ZW09NDgzOTg=",
-    },
-    {
-        imgUrl: "/images/villa-images/GDMV-06.jpg",
-        name: "GDMV-06",
-        description:
-            "吊顶: 喷砂不锈钢，铝型钢材，LED简灯\n娇壁: 镜面不锈钢，岩板，喷砂不锈钢饰条，钢板贴膜，暗藏灯带\n地板: 人造大理石",
-        link: "http://my.3vfang.com/p/share/content.php?m=a3I4MDM5LWl0ZW09NDgzOTk=",
-    },
-    {
-        imgUrl: "/images/villa-images/GDMV-07.jpg",
-        name: "GDMV-07",
-        description:
-            "吊顶: 古铜不锈钢，LED灯带\n娇壁: 古铜不锈钢，古铜蚀刻不锈钢，古铜镜面不锈钢\n地板: PVC(大理石可选)",
-        link: "http://my.3vfang.com/p/share/content.php?m=a3I4MDM5LWl0ZW09NDg0MDA=",
-    },
-    {
-        imgUrl: "/images/villa-images/GDMV-08.jpg",
-        name: "GDMV-08",
-        description:
-            "吊顶: 柚木色铝合金框，柚木饰板\n娇壁: 镜面不锈钢，柚木色铝合金框，氛围灯，钢化夹胶玻璃\n地板: 柚木实木",
-        link: "http://my.3vfang.com/p/share/content.php?m=a3I4MDM5LWl0ZW09NDg0MDE=",
+            "吊顶: 镜面一体式, LED柔光平板照明灯设计\n墙壁: 镜面蚀刻不锈钢，发纹不锈钢\n地板: PVC",
+        link: "http://my.3vfang.com/p/share/content.php?m=a3I4MDM5LWl0ZW09NTE2OTI=",
     },
 ]);
 
@@ -268,7 +219,7 @@ html {
 .web .web-center .web-text .web-passenger .web-passenger-image {
     height: 173px;
     width: 250px;
-    background-image: url("../../../public/images/image-villa.png");
+    background-image: url("../../../public/images/image-elevator.png");
     background-size: cover;
     background-repeat: no-repeat;
 }

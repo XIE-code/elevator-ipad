@@ -145,6 +145,20 @@ const elist = ref([
             "吊顶: 柚木色铝合金框，柚木饰板\n娇壁: 镜面不锈钢，柚木色铝合金框，氛围灯，钢化夹胶玻璃\n地板: 柚木实木",
         link: "http://my.3vfang.com/p/share/content.php?m=a3I4MDM5LWl0ZW09NDg0MDE=",
     },
+    {
+        imgUrl: "/images/villa-images/GDMV-09.jpg",
+        name: "GDMV-09",
+        description:
+            "吊顶: 柚木色铝合金框，柚木饰板\n娇壁: 镜面不锈钢，柚木色铝合金框，氛围灯，钢化夹胶玻璃\n地板: 柚木实木",
+        link: "http://my.3vfang.com/p/share/content.php?m=a3I4MDM5LWl0ZW09NDg0MDE=",
+    },
+    {
+        imgUrl: "/images/villa-images/GDMV-10.jpg",
+        name: "GDMV-10",
+        description:
+            "吊顶: 柚木色铝合金框，柚木饰板\n娇壁: 镜面不锈钢，柚木色铝合金框，氛围灯，钢化夹胶玻璃\n地板: 柚木实木",
+        link: "http://my.3vfang.com/p/share/content.php?m=a3I4MDM5LWl0ZW09NDg0MDE=",
+    },
 ]);
 
 const gotoVilla = () => {

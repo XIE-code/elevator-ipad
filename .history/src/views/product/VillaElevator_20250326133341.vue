@@ -57,7 +57,7 @@
                     >
                         <div class="web-passenger-product-box">
                             <div class="web-passenger-product-box-img">
-                                <img :src="item.imgUrl" :alt="item.name" />
+                                <img src="item.imgUrl" :alt="item.name" />
                             </div>
                             <div class="web-passenger-product-box-text">
                                 <span class="text4">{{ item.name }}</span>
@@ -90,60 +90,11 @@ const router = useRouter();
 // 定义电梯产品数据
 const elist = ref([
     {
-        imgUrl: "/images/villa-images/GDMV-01.jpg",
-        name: "GDMV-01",
+        imgUrl: "/images/elevator_images/image20.png",
+        name: "GDMK-21|朱樱",
         description:
-            "吊顶: 镜面不锈钢，亚克力灯饰，LED简灯\n娇壁: 发纹不锈钢，黑钛镜面不锈钢，黑钛镜面蚀刻不锈钢\n地板: PVC(大理石可选)",
-        link: "http://my.3vfang.com/p/share/content.php?m=a3I4MDM5LWl0ZW09NDgzOTM=",
-    },
-    {
-        imgUrl: "/images/villa-images/GDMV-02.jpg",
-        name: "GDMV-02",
-        description:
-            "吊顶: 镜面不锈钢，发纹不锈钢，暗藏灯带，LED灯\n娇壁: 镜面不锈钢，蚀刻，玫瑰金不锈钢，木纹化妆钢板\n地板: PVC(大理石可选)",
-        link: "http://my.3vfang.com/p/share/content.php?m=a3I4MDM5LWl0ZW09NDgzOTQ=",
-    },
-    {
-        imgUrl: "/images/villa-images/GDMV-03.jpg",
-        name: "GDMV-03",
-        description:
-            "吊顶: 香槟金发纹不锈钢，LED灯带，LED简灯\n娇壁: 香槟金镜面蚀刻不锈钢，香槟金发纹不锈钢\n地板: PVC(大理石可选)",
-        link: "http://my.3vfang.com/p/share/content.php?m=a3I4MDM5LWl0ZW09NDgzOTU=",
-    },
-    {
-        imgUrl: "/images/villa-images/GDMV-04.jpg",
-        name: "GDMV-04",
-        description:
-            "吊顶: 古铜不锈钢嵌条，LED简灯，暗藏灯带\n娇壁: 抗指纹古铜不锈钢，古铜镜面不锈钢，古铜镜面蚀刻不锈钢，影木装饰板\n地板: PVC(大理石可选)",
-        link: "http://my.3vfang.com/p/share/content.php?m=a3I4MDM5LWl0ZW09NDgzOTY=",
-    },
-    {
-        imgUrl: "/images/villa-images/GDMV-05.jpg",
-        name: "GDMV-05",
-        description:
-            "吊顶: 钢板烤漆，古铜边线，LED简灯，暗藏灯带\n娇壁: 黄古铜不锈钢，镜面不锈钢，木饰面，大理石纹\n地板: PVC(大理石可选)",
-        link: "http://my.3vfang.com/p/share/content.php?m=a3I4MDM5LWl0ZW09NDgzOTg=",
-    },
-    {
-        imgUrl: "/images/villa-images/GDMV-06.jpg",
-        name: "GDMV-06",
-        description:
-            "吊顶: 喷砂不锈钢，铝型钢材，LED简灯\n娇壁: 镜面不锈钢，岩板，喷砂不锈钢饰条，钢板贴膜，暗藏灯带\n地板: 人造大理石",
-        link: "http://my.3vfang.com/p/share/content.php?m=a3I4MDM5LWl0ZW09NDgzOTk=",
-    },
-    {
-        imgUrl: "/images/villa-images/GDMV-07.jpg",
-        name: "GDMV-07",
-        description:
-            "吊顶: 古铜不锈钢，LED灯带\n娇壁: 古铜不锈钢，古铜蚀刻不锈钢，古铜镜面不锈钢\n地板: PVC(大理石可选)",
-        link: "http://my.3vfang.com/p/share/content.php?m=a3I4MDM5LWl0ZW09NDg0MDA=",
-    },
-    {
-        imgUrl: "/images/villa-images/GDMV-08.jpg",
-        name: "GDMV-08",
-        description:
-            "吊顶: 柚木色铝合金框，柚木饰板\n娇壁: 镜面不锈钢，柚木色铝合金框，氛围灯，钢化夹胶玻璃\n地板: 柚木实木",
-        link: "http://my.3vfang.com/p/share/content.php?m=a3I4MDM5LWl0ZW09NDg0MDE=",
+            "吊顶: 玫瑰金镜面不锈钢，亚克力透光板，LED灯\n墙壁: 玫瑰金镜面不锈钢，亚克力透光板，LED灯\n地板: PVC (大理石可选)",
+        link: "http://my.3vfang.com/p/share/content.php?m=a3I4MDM5LWl0ZW09NTIwNTc=",
     },
 ]);
 
@@ -158,21 +109,18 @@ const gotPassenger = () => {
 
 <style scoped>
 /* 基础样式 */
-body,
+
 html {
     width: 100%;
     height: 100%;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-/* 动态调整 html 的 font-size */
-html {
-    font-size: calc(0.625rem + 0.5vw); /* 动态调整字体大小 */
+    font-size: 16px;
 }
 .web {
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     min-width: auto; /* ✅ 移除最小宽度限制 */
     margin: 0 auto;
     box-sizing: border-box;
@@ -184,30 +132,30 @@ html {
     min-width: 46.875rem;
 }
 .web .web-header .web-header-box {
-    width: 80px;
-    height: 40px;
+    width: 5rem;
+    height: 2.5rem;
     background: whitesmoke;
     display: flex;
     flex-direction: row;
 }
 .web .web-header .web-header-awa {
     /* 小马 */
-    width: 156px;
-    height: 64px;
+    width: 9.75rem;
+    height: 4rem;
     top: 0;
     right: 0;
     position: absolute;
-    background-image: url("../../../public/images/logo.png");
+    background-image: url();
 }
 
 .web .web-text {
-    width: 500px;
-    height: 1200px;
-    margin-left: 2.5rem;
+    width: 31.25rem;
+    height: 75rem;
+    margin-left: 40px;
 }
 .web .web-text .center-title {
-    width: 200px;
-    height: 100px;
+    width: 12.5rem;
+    height: 6.25rem;
     margin: auto;
     text-align: center;
     display: flex;
@@ -218,7 +166,7 @@ html {
     font-size: 1.5rem;
     font-weight: 700;
     line-height: 2.1875rem;
-    letter-spacing: -0.1875rem;
+    letter-spacing: -3px;
     text-align: left;
 }
 
@@ -227,25 +175,24 @@ html {
     flex-direction: row;
 }
 .web .web-center .web-left {
-    width: 141px;
-    height: 659px;
-    border-bottom: 1px solid rgba(184, 183, 183, 0.09);
-    border-left: 1px solid rgba(184, 183, 183, 0.09);
-    border-right: 1px solid rgba(184, 183, 183, 0.09);
-    border-radius: 120px 120px 120px 0px;
-    box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.1);
+    width: 8.8125rem;
+    height: 41.1875rem;
+    border-bottom: 0.0625rem solid rgba(184, 183, 183, 0.09);
+    border-left: 0.0625rem solid rgba(184, 183, 183, 0.09);
+    border-right: 0.0625rem solid rgba(184, 183, 183, 0.09);
+    border-radius: 7.5rem 7.5rem 7.5rem 0rem;
+    box-shadow: 0rem 0.25rem 0.3125rem 0rem rgba(0, 0, 0, 0.1);
     background: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
     justify-content: space-around; /* 两个盒子分布在两端 */
-    align-items: center; /* 垂直居中子元素 */
 }
 .web .web-center .web-left .navigation {
-    width: 155px;
-    height: 85px;
-    border-radius: 0px 50px 50px 0px;
+    width: 9.6875rem;
+    height: 5.3125rem;
+    border-radius: 0rem 3.125rem 3.125rem 0rem;
     background: white;
-    font-size: 20px;
+    font-size: 1.25rem;
     transition: background-color 0.3s; /* 添加背景颜色过渡效果 */
     cursor: pointer;
 }
@@ -255,26 +202,27 @@ html {
 }
 
 .web .web-center .web-text .web-passenger {
-    width: 540px;
-    height: 200px;
+    width: 33.75rem;
+    height: 12.5rem;
     display: flex;
     flex-direction: row;
 }
 .web .web-text .center-box {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 1.875rem;
 }
 .web .web-center .web-text .web-passenger .web-passenger-image {
-    height: 173px;
-    width: 250px;
-    background-image: url("../../../public/images/image-villa.png");
+    height: 10.8125rem;
+    width: 15.625rem;
+    padding: 0.625rem;
+    background-image: url();
     background-size: cover;
     background-repeat: no-repeat;
 }
 .web .web-center .web-text .web-passenger .web-passenger-text {
-    height: 173px;
-    width: 290px;
+    height: 10.8125rem;
+    width: 18.125rem;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -296,17 +244,17 @@ html {
     justify-content: center; /* 水平居中子元素 */
     align-items: center; /* 垂直居中子元素（可选） */
     box-sizing: border-box;
-    border: 0.0625rem solid rgba(0, 0, 0, 0.24);
+    border: 1px solid rgba(0, 0, 0, 0.24);
     background: rgb(255, 255, 255);
 }
 .web .web-center .web-text .web-passenger-product .web-passenger-product-box {
-    width: 96%;
+    width: 100%;
     height: 90%;
+    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: space-around; /* 两个盒子分布在两端 */
     align-items: center; /* 垂直居中子元素 */
-    box-sizing: border-box;
     box-sizing: border-box;
 }
 .web
@@ -339,13 +287,15 @@ html {
     .web-passenger-product
     .web-passenger-product-box
     .web-passenger-product-box-text {
+    width: 60%;
+    height: 100%;
     margin: auto;
     color: rgb(0, 80, 165);
     font-family: 思源黑体;
     font-size: 1.5rem;
     font-weight: 400;
     line-height: 2.1875rem;
-    letter-spacing: 0rem;
+    letter-spacing: 0px;
     text-align: left;
     flex: 1; /* 文字部分占满剩余空间 */
 }
@@ -362,12 +312,11 @@ html {
 .button-link {
     display: inline-block;
     width: 100%;
-    margin-bottom: 0.625rem;
-    max-width: 9.375rem;
-    height: 2.5rem;
+    max-width: 150px;
+    height: 40px;
     color: white;
     text-decoration: none;
-    border-radius: 3.125rem;
+    border-radius: 50px;
     background: rgb(170, 215, 239);
     border: none;
     cursor: pointer;
@@ -376,26 +325,27 @@ html {
     font-size: 16px;
     font-weight: 400;
     line-height: 39px;
-    letter-spacing: 0rem;
+    letter-spacing: 0px;
     text-align: center;
+    margin-bottom: 0.625rem;
 }
 /* 字体 */
 .chinese {
     color: rgba(0, 43, 125, 0.85);
     font-family: 思源黑体;
-    font-size: 1.625rem;
+    font-size: 26px;
     font-weight: 700;
-    line-height: 2.375rem;
-    letter-spacing: -0.1875rem;
+    line-height: 38px;
+    letter-spacing: -3px;
     text-align: left;
 }
 .english {
     color: rgba(0, 43, 125, 0.85);
     font-family: 思源黑体;
-    font-size: 0.875rem;
+    font-size: 14px;
     font-weight: 400;
-    line-height: 1.25rem;
-    letter-spacing: 0rem;
+    line-height: 20px;
+    letter-spacing: 0px;
     text-align: left;
 }
 .text3 {
@@ -404,7 +354,7 @@ html {
     font-size: 1.125rem;
     font-weight: 700;
     line-height: 1.625rem;
-    letter-spacing: 0rem;
+    letter-spacing: 0px;
     text-align: left;
 }
 .text4 {
@@ -413,7 +363,7 @@ html {
     font-size: 1.75rem;
     font-weight: 400;
     line-height: 2.5625rem;
-    letter-spacing: 0rem;
+    letter-spacing: 0px;
     text-align: left;
 }
 .text5 {
@@ -422,13 +372,8 @@ html {
     font-size: 1.25rem;
     font-weight: 400;
     line-height: 2.1875rem;
-    letter-spacing: 0rem;
+    letter-spacing: 0px;
     text-align: left;
-
-    display: block; /* 让每个 span 变成独立块，自动换行 */
-    white-space: pre-line; /* 兼容换行符 (\n) */
-    word-wrap: break-word; /* 处理长单词换行 */
-    line-height: 1.5; /* 调整行距 */
 }
 .text6 {
     color: rgba(0, 43, 125, 0.85);
@@ -436,7 +381,7 @@ html {
     font-size: 1.25rem;
     font-weight: 700;
     line-height: 1.8125rem;
-    letter-spacing: 0rem;
+    letter-spacing: 0px;
     text-align: left;
 }
 .text7 {
@@ -445,7 +390,7 @@ html {
     font-size: 0.75rem;
     font-weight: 400;
     line-height: 1.0625rem;
-    letter-spacing: 0rem;
+    letter-spacing: 0px;
     text-align: left;
 }
 /* 添加高亮效果的样式 */
@@ -479,10 +424,6 @@ html {
         transform-origin: top left;
     }
 }
-@media screen and (min-width: 1000px) {
-    .web {
-        transform: scale(1.25);
-        transform-origin: top left;
-    }
+@media screen and (min-width: 776px) {
 }
 </style>

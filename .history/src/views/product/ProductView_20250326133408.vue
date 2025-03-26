@@ -1,7 +1,11 @@
 <template>
     <div class="web">
-        <!-- 页面头部 -->
+        <!-- 页面头部按钮 -->
         <div class="web-header">
+            <!-- <div class="web-header-box">
+                <div class="web-header-box1"></div>
+                <div class="web-header-box2"></div>
+            </div> -->
             <div class="web-header-awa"></div>
         </div>
         <!-- 页面主体 -->
@@ -31,9 +35,9 @@
                     <div class="web-passenger-image"></div>
                     <div class="web-passenger-text">
                         <div class="web-passenger-text1">
-                            <span class="chinese">别墅电梯</span
+                            <span class="chinese">乘客电梯</span
                             >&nbsp;&nbsp;&nbsp;
-                            <span class="english"> Villa elevator</span>
+                            <span class="english"> passenger elevator</span>
                             <hr
                                 style="
                                     border: 0.1875rem solid
@@ -41,9 +45,8 @@
                                 "
                             />
                             <span class="text3"
-                                >主要用于提升生活便捷性、增强家居安
-                                全性、提高生活质量以及美化家居环境
-                            </span>
+                                >主要是用于运送乘客的电梯，通常用于办公楼、宾馆等场合。它们注重安全性和舒适性，通常配有完善的安保系统和内部装饰</span
+                            >
                         </div>
                     </div>
                 </div>
@@ -57,7 +60,7 @@
                     >
                         <div class="web-passenger-product-box">
                             <div class="web-passenger-product-box-img">
-                                <img :src="item.imgUrl" :alt="item.name" />
+                                <img src="item.imgUrl" :alt="item.name" />
                             </div>
                             <div class="web-passenger-product-box-text">
                                 <span class="text4">{{ item.name }}</span>
@@ -90,60 +93,11 @@ const router = useRouter();
 // 定义电梯产品数据
 const elist = ref([
     {
-        imgUrl: "/images/villa-images/GDMV-01.jpg",
-        name: "GDMV-01",
+        imgUrl: "/images/elevator_images/image20.png",
+        name: "GDMK-21|朱樱",
         description:
-            "吊顶: 镜面不锈钢，亚克力灯饰，LED简灯\n娇壁: 发纹不锈钢，黑钛镜面不锈钢，黑钛镜面蚀刻不锈钢\n地板: PVC(大理石可选)",
-        link: "http://my.3vfang.com/p/share/content.php?m=a3I4MDM5LWl0ZW09NDgzOTM=",
-    },
-    {
-        imgUrl: "/images/villa-images/GDMV-02.jpg",
-        name: "GDMV-02",
-        description:
-            "吊顶: 镜面不锈钢，发纹不锈钢，暗藏灯带，LED灯\n娇壁: 镜面不锈钢，蚀刻，玫瑰金不锈钢，木纹化妆钢板\n地板: PVC(大理石可选)",
-        link: "http://my.3vfang.com/p/share/content.php?m=a3I4MDM5LWl0ZW09NDgzOTQ=",
-    },
-    {
-        imgUrl: "/images/villa-images/GDMV-03.jpg",
-        name: "GDMV-03",
-        description:
-            "吊顶: 香槟金发纹不锈钢，LED灯带，LED简灯\n娇壁: 香槟金镜面蚀刻不锈钢，香槟金发纹不锈钢\n地板: PVC(大理石可选)",
-        link: "http://my.3vfang.com/p/share/content.php?m=a3I4MDM5LWl0ZW09NDgzOTU=",
-    },
-    {
-        imgUrl: "/images/villa-images/GDMV-04.jpg",
-        name: "GDMV-04",
-        description:
-            "吊顶: 古铜不锈钢嵌条，LED简灯，暗藏灯带\n娇壁: 抗指纹古铜不锈钢，古铜镜面不锈钢，古铜镜面蚀刻不锈钢，影木装饰板\n地板: PVC(大理石可选)",
-        link: "http://my.3vfang.com/p/share/content.php?m=a3I4MDM5LWl0ZW09NDgzOTY=",
-    },
-    {
-        imgUrl: "/images/villa-images/GDMV-05.jpg",
-        name: "GDMV-05",
-        description:
-            "吊顶: 钢板烤漆，古铜边线，LED简灯，暗藏灯带\n娇壁: 黄古铜不锈钢，镜面不锈钢，木饰面，大理石纹\n地板: PVC(大理石可选)",
-        link: "http://my.3vfang.com/p/share/content.php?m=a3I4MDM5LWl0ZW09NDgzOTg=",
-    },
-    {
-        imgUrl: "/images/villa-images/GDMV-06.jpg",
-        name: "GDMV-06",
-        description:
-            "吊顶: 喷砂不锈钢，铝型钢材，LED简灯\n娇壁: 镜面不锈钢，岩板，喷砂不锈钢饰条，钢板贴膜，暗藏灯带\n地板: 人造大理石",
-        link: "http://my.3vfang.com/p/share/content.php?m=a3I4MDM5LWl0ZW09NDgzOTk=",
-    },
-    {
-        imgUrl: "/images/villa-images/GDMV-07.jpg",
-        name: "GDMV-07",
-        description:
-            "吊顶: 古铜不锈钢，LED灯带\n娇壁: 古铜不锈钢，古铜蚀刻不锈钢，古铜镜面不锈钢\n地板: PVC(大理石可选)",
-        link: "http://my.3vfang.com/p/share/content.php?m=a3I4MDM5LWl0ZW09NDg0MDA=",
-    },
-    {
-        imgUrl: "/images/villa-images/GDMV-08.jpg",
-        name: "GDMV-08",
-        description:
-            "吊顶: 柚木色铝合金框，柚木饰板\n娇壁: 镜面不锈钢，柚木色铝合金框，氛围灯，钢化夹胶玻璃\n地板: 柚木实木",
-        link: "http://my.3vfang.com/p/share/content.php?m=a3I4MDM5LWl0ZW09NDg0MDE=",
+            "吊顶: 玫瑰金镜面不锈钢，亚克力透光板，LED灯\n墙壁: 玫瑰金镜面不锈钢，亚克力透光板，LED灯\n地板: PVC (大理石可选)",
+        link: "http://my.3vfang.com/p/share/content.php?m=a3I4MDM5LWl0ZW09NTIwNTc=",
     },
 ]);
 
@@ -197,7 +151,40 @@ html {
     top: 0;
     right: 0;
     position: absolute;
-    background-image: url("../../../public/images/logo.png");
+    background-image: url("");
+}
+
+.web .web-header .web-header-box .web-header-box1 {
+    /* 椭圆 1 */
+    width: 35.2896px;
+    height: 40px;
+    left: 13px;
+    right: 31.7104px;
+    top: 17px;
+    bottom: -17px;
+    background: rgb(117, 171, 227);
+    border-radius: 50%; /* 设置圆形 */
+    text-align: center;
+    background-image: url();
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.web .web-header .web-header-box .web-header-box2 {
+    /* 椭圆 2 */
+    margin-left: 5px;
+    width: 35.2896px;
+    height: 40px;
+    left: 13px;
+    right: 31.7104px;
+    top: 17px;
+    bottom: -17px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.18);
+    background: rgb(255, 255, 255);
+    border-radius: 50%; /* 设置圆形 */
+    text-align: center;
+    background-image: url();
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .web .web-text {
@@ -250,7 +237,7 @@ html {
     cursor: pointer;
 }
 
-.web .web-center .web-left .navigation:nth-child(2) {
+.web .web-center .web-left .navigation:nth-child(1) {
     background: rgb(170, 215, 239);
 }
 
@@ -268,7 +255,8 @@ html {
 .web .web-center .web-text .web-passenger .web-passenger-image {
     height: 173px;
     width: 250px;
-    background-image: url("../../../public/images/image-villa.png");
+    padding: 10px;
+    background-image: url();
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -473,7 +461,7 @@ html {
     }
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 23.5rem) {
     .web {
         transform: scale(0.45);
         transform-origin: top left;
@@ -481,7 +469,13 @@ html {
 }
 @media screen and (min-width: 1000px) {
     .web {
-        transform: scale(1.25);
+        transform: scale(1.45);
+        transform-origin: top left;
+    }
+}
+@media screen and (min-width: 1300px) {
+    .web {
+        transform: scale(1.85);
         transform-origin: top left;
     }
 }
