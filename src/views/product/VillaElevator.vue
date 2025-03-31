@@ -173,6 +173,7 @@ html {
     min-width: auto; /* ✅ 移除最小宽度限制 */
     margin: 0 auto;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 .web .web-header {
     height: 9.33vh;
@@ -461,9 +462,12 @@ html {
 }
 
 @media screen and (max-width: 480px) {
+    .web {
+        overflow-x: hidden;
+    }
     .web .web-header,
     .web .web-text {
-        transform: scale(0.52);
+        transform: scale(0.5);
         transform-origin: top left;
     }
     .web .web-center .web-left {
@@ -474,6 +478,9 @@ html {
 }
 
 @media screen and (max-width: 376px) {
+    .web {
+        overflow-x: hidden;
+    }
     .web .web-header,
     .web .web-text {
         transform: scale(0.45);
@@ -486,6 +493,9 @@ html {
     }
 }
 @media screen and (min-width: 1000px) {
+    .web {
+        overflow-x: hidden;
+    }
     .web .web-header,
     .web .web-text {
         transform: scale(1.25);
